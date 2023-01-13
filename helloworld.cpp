@@ -18,7 +18,7 @@ int main() {
 
 /*
 	This is a 
-	mulit line
+	multi line
 	comment
 
 */
