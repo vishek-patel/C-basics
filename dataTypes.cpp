@@ -6,7 +6,7 @@
 
 // StudentName , IsStudent , FirstNumber , CurTemp --> This representation is called as PASCAL-CASE
 
-
+// Semicolor (;) is used to mark the end of the statement in c++
 
 #include<iostream> //this line includes all the library function in the iostream 
 
