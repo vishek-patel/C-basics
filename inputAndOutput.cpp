@@ -1,7 +1,5 @@
 //Input and Output in C++
 
-
-
 #include<iostream>
 
 using namespace std;
@@ -36,7 +34,7 @@ int main() {
 	
 //	getline(cin,name);
 
-	char name[50];
+	char name[50]; // character array to store mutliple characters or string
 
 	cin.getline(name, sizeof(name));
 	
