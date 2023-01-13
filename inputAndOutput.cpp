@@ -10,7 +10,7 @@ int main() {
 
 	int number1;
 
-//	string name;
+	string name;
 
 	
 	cout << "Enter number 1: "; // Double quotation mark is used to print any string value 
@@ -30,13 +30,18 @@ int main() {
 
 //	cin >> name; // cin will store only one word by default
 
-	fflush(stdin); //  This method flushes the input buffer , since after enter the number you enterd a new line character (Enter key)  
+	getchar(); // This method/function reads a single character from the input stream, 
+			  // You can use it by calling getchar() before the cin.getline() function call.	
+			 // since after enter the number you enterd a new line character (Enter key) 
+
+//	fflush(stdin); //  This method also flushes the input buffer , since after enter the number you enterd a new line character (Enter key)  
 	
-//	getline(cin,name);
+	getline(cin,name); // getline() function is used when you want to read a line of text including spaces,
+					  // while the cin >> variable is used to read a single word.
+					  
+//	char name[50]; // character array to store mutliple characters or string
 
-	char name[50]; // character array to store mutliple characters or string
-
-	cin.getline(name, sizeof(name));
+//	cin.getline(name, sizeof(name)); // getline function is used to 
 	
 	cout << "Your name is : ";
 	
